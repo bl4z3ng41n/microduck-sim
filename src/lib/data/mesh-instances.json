@@ -1,0 +1,882 @@
+{
+"legs": [
+{
+"key": "trunk_base|0",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "trunk_base",
+"geom": 0
+},
+{
+"key": "trunk_base|1",
+"mesh": "right_shell.stl",
+"body": "trunk_base",
+"geom": 1
+},
+{
+"key": "trunk_base|2",
+"mesh": "banana_pcb_locker.stl",
+"body": "trunk_base",
+"geom": 2
+},
+{
+"key": "trunk_base|3",
+"mesh": "trunk_base.stl",
+"body": "trunk_base",
+"geom": 3
+},
+{
+"key": "trunk_base|4",
+"mesh": "xl330.stl",
+"body": "trunk_base",
+"geom": 4
+},
+{
+"key": "trunk_base|5",
+"mesh": "power_support.stl",
+"body": "trunk_base",
+"geom": 5
+},
+{
+"key": "trunk_base|6",
+"mesh": "np_f970.stl",
+"body": "trunk_base",
+"geom": 6
+},
+{
+"key": "trunk_base|7",
+"mesh": "xl330.stl",
+"body": "trunk_base",
+"geom": 7
+},
+{
+"key": "trunk_base|8",
+"mesh": "left_shell.stl",
+"body": "trunk_base",
+"geom": 8
+},
+{
+"key": "trunk_base|9",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "trunk_base",
+"geom": 9
+},
+{
+"key": "yaw2roll|0",
+"mesh": "yaw2roll.stl",
+"body": "yaw2roll",
+"geom": 0
+},
+{
+"key": "yaw2roll|1",
+"mesh": "xl330.stl",
+"body": "yaw2roll",
+"geom": 1
+},
+{
+"key": "yaw2roll|2",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "yaw2roll",
+"geom": 2
+},
+{
+"key": "yaw2roll|3",
+"mesh": "bearing_roll.stl",
+"body": "yaw2roll",
+"geom": 3
+},
+{
+"key": "hip_l|0",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "hip_l",
+"geom": 0
+},
+{
+"key": "hip_l|1",
+"mesh": "hip_l.stl",
+"body": "hip_l",
+"geom": 1
+},
+{
+"key": "upper_leg_left|0",
+"mesh": "upper_leg_left.stl",
+"body": "upper_leg_left",
+"geom": 0
+},
+{
+"key": "upper_leg_left|1",
+"mesh": "xl330.stl",
+"body": "upper_leg_left",
+"geom": 1
+},
+{
+"key": "upper_leg_left|2",
+"mesh": "upper_leg_rigidity_plate.stl",
+"body": "upper_leg_left",
+"geom": 2
+},
+{
+"key": "upper_leg_left|3",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "upper_leg_left",
+"geom": 3
+},
+{
+"key": "upper_leg_left|4",
+"mesh": "xl330.stl",
+"body": "upper_leg_left",
+"geom": 4
+},
+{
+"key": "leg|0",
+"mesh": "leg.stl",
+"body": "leg",
+"geom": 0
+},
+{
+"key": "leg|1",
+"mesh": "xl330.stl",
+"body": "leg",
+"geom": 1
+},
+{
+"key": "ankle_left|0",
+"mesh": "sole_left.stl",
+"body": "ankle_left",
+"geom": 0
+},
+{
+"key": "ankle_left|1",
+"mesh": "foot_left.stl",
+"body": "ankle_left",
+"geom": 1
+},
+{
+"key": "ankle_left|2",
+"mesh": "seeed_bearing__configuration_default.stl",
+"body": "ankle_left",
+"geom": 2
+},
+{
+"key": "ankle_left|3",
+"mesh": "ankle_left.stl",
+"body": "ankle_left",
+"geom": 3
+},
+{
+"key": "neck|0",
+"mesh": "neck.stl",
+"body": "neck",
+"geom": 0
+},
+{
+"key": "neck|1",
+"mesh": "xl330.stl",
+"body": "neck",
+"geom": 1
+},
+{
+"key": "neck|2",
+"mesh": "xl330.stl",
+"body": "neck",
+"geom": 2
+},
+{
+"key": "neck|3",
+"mesh": "neck.stl",
+"body": "neck",
+"geom": 3
+},
+{
+"key": "neck_pitch|0",
+"mesh": "neck_pitch.stl",
+"body": "neck_pitch",
+"geom": 0
+},
+{
+"key": "neck_pitch|1",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "neck_pitch",
+"geom": 1
+},
+{
+"key": "yaw_roll_motion|0",
+"mesh": "yaw_roll_motion.stl",
+"body": "yaw_roll_motion",
+"geom": 0
+},
+{
+"key": "yaw_roll_motion|1",
+"mesh": "xl330.stl",
+"body": "yaw_roll_motion",
+"geom": 1
+},
+{
+"key": "yaw_roll_motion|2",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "yaw_roll_motion",
+"geom": 2
+},
+{
+"key": "yaw_roll_motion|3",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "yaw_roll_motion",
+"geom": 3
+},
+{
+"key": "jaw_soft|0",
+"mesh": "lens.stl",
+"body": "jaw_soft",
+"geom": 0
+},
+{
+"key": "jaw_soft|1",
+"mesh": "face_part.stl",
+"body": "jaw_soft",
+"geom": 1
+},
+{
+"key": "jaw_soft|2",
+"mesh": "xl330.stl",
+"body": "jaw_soft",
+"geom": 2
+},
+{
+"key": "jaw_soft|3",
+"mesh": "jaw_soft.stl",
+"body": "jaw_soft",
+"geom": 3
+},
+{
+"key": "jaw_soft|4",
+"mesh": "motor_support.stl",
+"body": "jaw_soft",
+"geom": 4
+},
+{
+"key": "jaw_soft|5",
+"mesh": "top_head_shell.stl",
+"body": "jaw_soft",
+"geom": 5
+},
+{
+"key": "jaw_soft|6",
+"mesh": "xl330.stl",
+"body": "jaw_soft",
+"geom": 6
+},
+{
+"key": "jaw_soft|7",
+"mesh": "seeed_bearing__configuration_default.stl",
+"body": "jaw_soft",
+"geom": 7
+},
+{
+"key": "jaw_soft|8",
+"mesh": "elec_rpi_robot_hat_pcb.stl",
+"body": "jaw_soft",
+"geom": 8
+},
+{
+"key": "jaw_soft|9",
+"mesh": "soft_mouth_top.stl",
+"body": "jaw_soft",
+"geom": 9
+},
+{
+"key": "jaw_soft|10",
+"mesh": "noenoeil.stl",
+"body": "jaw_soft",
+"geom": 10
+},
+{
+"key": "jaw_soft|11",
+"mesh": "jaw.stl",
+"body": "jaw_soft",
+"geom": 11
+},
+{
+"key": "jaw_soft|12",
+"mesh": "bottom_head_shell.stl",
+"body": "jaw_soft",
+"geom": 12
+},
+{
+"key": "jaw_soft|13",
+"mesh": "m12_lens_holder.stl",
+"body": "jaw_soft",
+"geom": 13
+},
+{
+"key": "jaw_soft|14",
+"mesh": "pcb__raspberry_pi_zero_2_w.stl",
+"body": "jaw_soft",
+"geom": 14
+},
+{
+"key": "jaw_soft|15",
+"mesh": "speaker.stl",
+"body": "jaw_soft",
+"geom": 15
+},
+{
+"key": "bearing_roll|0",
+"mesh": "yaw2roll.stl",
+"body": "bearing_roll",
+"geom": 0
+},
+{
+"key": "bearing_roll|1",
+"mesh": "xl330.stl",
+"body": "bearing_roll",
+"geom": 1
+},
+{
+"key": "bearing_roll|2",
+"mesh": "bearing_roll.stl",
+"body": "bearing_roll",
+"geom": 2
+},
+{
+"key": "bearing_roll|3",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "bearing_roll",
+"geom": 3
+},
+{
+"key": "hip_l_2|0",
+"mesh": "hip_l.stl",
+"body": "hip_l_2",
+"geom": 0
+},
+{
+"key": "hip_l_2|1",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "hip_l_2",
+"geom": 1
+},
+{
+"key": "upper_leg_right|0",
+"mesh": "xl330.stl",
+"body": "upper_leg_right",
+"geom": 0
+},
+{
+"key": "upper_leg_right|1",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "upper_leg_right",
+"geom": 1
+},
+{
+"key": "upper_leg_right|2",
+"mesh": "upper_leg_rigidity_plate.stl",
+"body": "upper_leg_right",
+"geom": 2
+},
+{
+"key": "upper_leg_right|3",
+"mesh": "upper_leg_right.stl",
+"body": "upper_leg_right",
+"geom": 3
+},
+{
+"key": "upper_leg_right|4",
+"mesh": "xl330.stl",
+"body": "upper_leg_right",
+"geom": 4
+},
+{
+"key": "leg_2|0",
+"mesh": "xl330.stl",
+"body": "leg_2",
+"geom": 0
+},
+{
+"key": "leg_2|1",
+"mesh": "leg.stl",
+"body": "leg_2",
+"geom": 1
+},
+{
+"key": "ankle_right|0",
+"mesh": "ankle_right.stl",
+"body": "ankle_right",
+"geom": 0
+},
+{
+"key": "ankle_right|1",
+"mesh": "sole_right.stl",
+"body": "ankle_right",
+"geom": 1
+},
+{
+"key": "ankle_right|2",
+"mesh": "seeed_bearing__configuration_default.stl",
+"body": "ankle_right",
+"geom": 2
+},
+{
+"key": "ankle_right|3",
+"mesh": "foot_right.stl",
+"body": "ankle_right",
+"geom": 3
+}
+],
+"rollers": [
+{
+"key": "trunk_base|0",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "trunk_base",
+"geom": 0
+},
+{
+"key": "trunk_base|1",
+"mesh": "right_shell.stl",
+"body": "trunk_base",
+"geom": 1
+},
+{
+"key": "trunk_base|2",
+"mesh": "banana_pcb_locker.stl",
+"body": "trunk_base",
+"geom": 2
+},
+{
+"key": "trunk_base|3",
+"mesh": "trunk_base.stl",
+"body": "trunk_base",
+"geom": 3
+},
+{
+"key": "trunk_base|4",
+"mesh": "xl330.stl",
+"body": "trunk_base",
+"geom": 4
+},
+{
+"key": "trunk_base|5",
+"mesh": "power_support.stl",
+"body": "trunk_base",
+"geom": 5
+},
+{
+"key": "trunk_base|6",
+"mesh": "np_f970.stl",
+"body": "trunk_base",
+"geom": 6
+},
+{
+"key": "trunk_base|7",
+"mesh": "xl330.stl",
+"body": "trunk_base",
+"geom": 7
+},
+{
+"key": "trunk_base|8",
+"mesh": "left_shell.stl",
+"body": "trunk_base",
+"geom": 8
+},
+{
+"key": "trunk_base|9",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "trunk_base",
+"geom": 9
+},
+{
+"key": "yaw2roll|0",
+"mesh": "yaw2roll.stl",
+"body": "yaw2roll",
+"geom": 0
+},
+{
+"key": "yaw2roll|1",
+"mesh": "xl330.stl",
+"body": "yaw2roll",
+"geom": 1
+},
+{
+"key": "yaw2roll|2",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "yaw2roll",
+"geom": 2
+},
+{
+"key": "yaw2roll|3",
+"mesh": "bearing_roll.stl",
+"body": "yaw2roll",
+"geom": 3
+},
+{
+"key": "hip_l|0",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "hip_l",
+"geom": 0
+},
+{
+"key": "hip_l|1",
+"mesh": "hip_l.stl",
+"body": "hip_l",
+"geom": 1
+},
+{
+"key": "upper_leg_left|0",
+"mesh": "upper_leg_left.stl",
+"body": "upper_leg_left",
+"geom": 0
+},
+{
+"key": "upper_leg_left|1",
+"mesh": "xl330.stl",
+"body": "upper_leg_left",
+"geom": 1
+},
+{
+"key": "upper_leg_left|2",
+"mesh": "upper_leg_rigidity_plate.stl",
+"body": "upper_leg_left",
+"geom": 2
+},
+{
+"key": "upper_leg_left|3",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "upper_leg_left",
+"geom": 3
+},
+{
+"key": "upper_leg_left|4",
+"mesh": "xl330.stl",
+"body": "upper_leg_left",
+"geom": 4
+},
+{
+"key": "leg|0",
+"mesh": "leg.stl",
+"body": "leg",
+"geom": 0
+},
+{
+"key": "leg|1",
+"mesh": "xl330.stl",
+"body": "leg",
+"geom": 1
+},
+{
+"key": "ankle_l_v1|0",
+"mesh": "roller_blade.stl",
+"body": "ankle_l_v1",
+"geom": 0
+},
+{
+"key": "ankle_l_v1|1",
+"mesh": "seeed_bearing__configuration_default.stl",
+"body": "ankle_l_v1",
+"geom": 1
+},
+{
+"key": "ankle_l_v1|2",
+"mesh": "ankle_l_v1.stl",
+"body": "ankle_l_v1",
+"geom": 2
+},
+{
+"key": "tire|0",
+"mesh": "tire.stl",
+"body": "tire",
+"geom": 0
+},
+{
+"key": "tire|1",
+"mesh": "rim.stl",
+"body": "tire",
+"geom": 1
+},
+{
+"key": "tire_2|0",
+"mesh": "rim.stl",
+"body": "tire_2",
+"geom": 0
+},
+{
+"key": "tire_2|1",
+"mesh": "tire.stl",
+"body": "tire_2",
+"geom": 1
+},
+{
+"key": "neck|0",
+"mesh": "neck.stl",
+"body": "neck",
+"geom": 0
+},
+{
+"key": "neck|1",
+"mesh": "xl330.stl",
+"body": "neck",
+"geom": 1
+},
+{
+"key": "neck|2",
+"mesh": "xl330.stl",
+"body": "neck",
+"geom": 2
+},
+{
+"key": "neck|3",
+"mesh": "neck.stl",
+"body": "neck",
+"geom": 3
+},
+{
+"key": "neck_pitch|0",
+"mesh": "neck_pitch.stl",
+"body": "neck_pitch",
+"geom": 0
+},
+{
+"key": "neck_pitch|1",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "neck_pitch",
+"geom": 1
+},
+{
+"key": "yaw_roll_motion|0",
+"mesh": "yaw_roll_motion.stl",
+"body": "yaw_roll_motion",
+"geom": 0
+},
+{
+"key": "yaw_roll_motion|1",
+"mesh": "xl330.stl",
+"body": "yaw_roll_motion",
+"geom": 1
+},
+{
+"key": "yaw_roll_motion|2",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "yaw_roll_motion",
+"geom": 2
+},
+{
+"key": "yaw_roll_motion|3",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "yaw_roll_motion",
+"geom": 3
+},
+{
+"key": "jaw_soft|0",
+"mesh": "lens.stl",
+"body": "jaw_soft",
+"geom": 0
+},
+{
+"key": "jaw_soft|1",
+"mesh": "face_part.stl",
+"body": "jaw_soft",
+"geom": 1
+},
+{
+"key": "jaw_soft|2",
+"mesh": "xl330.stl",
+"body": "jaw_soft",
+"geom": 2
+},
+{
+"key": "jaw_soft|3",
+"mesh": "jaw_soft.stl",
+"body": "jaw_soft",
+"geom": 3
+},
+{
+"key": "jaw_soft|4",
+"mesh": "motor_support.stl",
+"body": "jaw_soft",
+"geom": 4
+},
+{
+"key": "jaw_soft|5",
+"mesh": "top_head_shell.stl",
+"body": "jaw_soft",
+"geom": 5
+},
+{
+"key": "jaw_soft|6",
+"mesh": "xl330.stl",
+"body": "jaw_soft",
+"geom": 6
+},
+{
+"key": "jaw_soft|7",
+"mesh": "seeed_bearing__configuration_default.stl",
+"body": "jaw_soft",
+"geom": 7
+},
+{
+"key": "jaw_soft|8",
+"mesh": "elec_rpi_robot_hat_pcb.stl",
+"body": "jaw_soft",
+"geom": 8
+},
+{
+"key": "jaw_soft|9",
+"mesh": "soft_mouth_top.stl",
+"body": "jaw_soft",
+"geom": 9
+},
+{
+"key": "jaw_soft|10",
+"mesh": "noenoeil.stl",
+"body": "jaw_soft",
+"geom": 10
+},
+{
+"key": "jaw_soft|11",
+"mesh": "jaw.stl",
+"body": "jaw_soft",
+"geom": 11
+},
+{
+"key": "jaw_soft|12",
+"mesh": "bottom_head_shell.stl",
+"body": "jaw_soft",
+"geom": 12
+},
+{
+"key": "jaw_soft|13",
+"mesh": "m12_lens_holder.stl",
+"body": "jaw_soft",
+"geom": 13
+},
+{
+"key": "jaw_soft|14",
+"mesh": "pcb__raspberry_pi_zero_2_w.stl",
+"body": "jaw_soft",
+"geom": 14
+},
+{
+"key": "jaw_soft|15",
+"mesh": "speaker.stl",
+"body": "jaw_soft",
+"geom": 15
+},
+{
+"key": "bearing_roll|0",
+"mesh": "yaw2roll.stl",
+"body": "bearing_roll",
+"geom": 0
+},
+{
+"key": "bearing_roll|1",
+"mesh": "xl330.stl",
+"body": "bearing_roll",
+"geom": 1
+},
+{
+"key": "bearing_roll|2",
+"mesh": "bearing_roll.stl",
+"body": "bearing_roll",
+"geom": 2
+},
+{
+"key": "bearing_roll|3",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "bearing_roll",
+"geom": 3
+},
+{
+"key": "hip_l_2|0",
+"mesh": "hip_l.stl",
+"body": "hip_l_2",
+"geom": 0
+},
+{
+"key": "hip_l_2|1",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "hip_l_2",
+"geom": 1
+},
+{
+"key": "upper_leg_right|0",
+"mesh": "xl330.stl",
+"body": "upper_leg_right",
+"geom": 0
+},
+{
+"key": "upper_leg_right|1",
+"mesh": "seeed_bearing__configuration__22x16x4.stl",
+"body": "upper_leg_right",
+"geom": 1
+},
+{
+"key": "upper_leg_right|2",
+"mesh": "upper_leg_rigidity_plate.stl",
+"body": "upper_leg_right",
+"geom": 2
+},
+{
+"key": "upper_leg_right|3",
+"mesh": "upper_leg_right.stl",
+"body": "upper_leg_right",
+"geom": 3
+},
+{
+"key": "upper_leg_right|4",
+"mesh": "xl330.stl",
+"body": "upper_leg_right",
+"geom": 4
+},
+{
+"key": "leg_2|0",
+"mesh": "xl330.stl",
+"body": "leg_2",
+"geom": 0
+},
+{
+"key": "leg_2|1",
+"mesh": "leg.stl",
+"body": "leg_2",
+"geom": 1
+},
+{
+"key": "ankle_r_v1|0",
+"mesh": "ankle_r_v1.stl",
+"body": "ankle_r_v1",
+"geom": 0
+},
+{
+"key": "ankle_r_v1|1",
+"mesh": "seeed_bearing__configuration_default.stl",
+"body": "ankle_r_v1",
+"geom": 1
+},
+{
+"key": "ankle_r_v1|2",
+"mesh": "roller_blade.stl",
+"body": "ankle_r_v1",
+"geom": 2
+},
+{
+"key": "tire_3|0",
+"mesh": "tire.stl",
+"body": "tire_3",
+"geom": 0
+},
+{
+"key": "tire_3|1",
+"mesh": "rim.stl",
+"body": "tire_3",
+"geom": 1
+},
+{
+"key": "tire_4|0",
+"mesh": "rim.stl",
+"body": "tire_4",
+"geom": 0
+},
+{
+"key": "tire_4|1",
+"mesh": "tire.stl",
+"body": "tire_4",
+"geom": 1
+}
+]
+}

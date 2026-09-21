@@ -1,0 +1,76 @@
+:root {
+	color-scheme: dark;
+	--bg: #0b0d12;
+	--bg-2: #12151d;
+	--bg-3: #1a1e29;
+	--line: #262b38;
+	--ink: #e9ecf2;
+	--ink-2: #a6adbd;
+	--ink-3: #6d7486;
+	--yellow: #ffc93c;
+	--orange: #ff7a2f;
+	--cream: #f2efe8;
+	--green: #4fd18b;
+	--red: #ff5d5d;
+	--blue: #6fb3ff;
+	--radius: 12px;
+	--mono: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+	--sans: system-ui, -apple-system, 'Segoe UI', Roboto, Inter, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--ink);
+	font-family: var(--sans);
+	font-size: 16px;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+a { color: var(--yellow); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5rem; letter-spacing: -0.01em; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; }
+h2 { font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 750; margin-top: 3rem; }
+h3 { font-size: 1.15rem; font-weight: 700; margin-top: 2rem; }
+p { margin: 0.6rem 0 1rem; color: var(--ink-2); }
+p strong, li strong { color: var(--ink); }
+ul, ol { color: var(--ink-2); padding-left: 1.4rem; }
+li { margin: 0.3rem 0; }
+code { font-family: var(--mono); font-size: 0.9em; background: var(--bg-3); padding: 0.1em 0.4em; border-radius: 5px; color: var(--cream); }
+pre code { background: none; padding: 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.95rem; }
+th, td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink-3); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; }
+td { color: var(--ink-2); }
+td code { white-space: nowrap; }
+.table-wrap { overflow-x: auto; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 1.25rem; }
+.eyebrow { color: var(--yellow); font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; margin-bottom: 0.6rem; }
+.lead { font-size: 1.2rem; color: var(--ink-2); max-width: 62ch; }
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.card { background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.2rem 1.3rem; }
+.card h3 { margin-top: 0; }
+.card p:last-child { margin-bottom: 0; }
+.btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.1rem; border-radius: 999px; font-weight: 700; border: 1px solid var(--line); color: var(--ink); background: var(--bg-2); transition: transform 0.1s, background 0.15s; }
+.btn:hover { text-decoration: none; background: var(--bg-3); transform: translateY(-1px); }
+.btn.primary { background: var(--yellow); color: #14120a; border-color: var(--yellow); }
+.btn.primary:hover { background: #ffd66a; }
+.btn.orange { background: var(--orange); color: #14120a; border-color: var(--orange); }
+.pill { display: inline-block; font-size: 0.75rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: 999px; background: var(--bg-3); color: var(--ink-2); border: 1px solid var(--line); }
+.pill.yes { color: var(--green); }
+.pill.warn { color: var(--orange); }
+.steps { counter-reset: step; list-style: none; padding: 0; }
+.steps > li { counter-increment: step; position: relative; padding-left: 3rem; margin: 1.4rem 0; }
+.steps > li::before { content: counter(step); position: absolute; left: 0; top: 0.1rem; width: 2rem; height: 2rem; border-radius: 50%; background: var(--yellow); color: #14120a; font-weight: 800; display: grid; place-items: center; }
+.steps h4 { margin: 0 0 0.3rem; font-size: 1.05rem; }
+kbd { font-family: var(--mono); font-size: 0.8em; background: var(--bg-3); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 6px; padding: 0.1em 0.5em; color: var(--ink); }
+.muted { color: var(--ink-3); }
+.small { font-size: 0.88rem; }
+section { margin: 2.5rem 0; }
+figure { margin: 1.5rem 0; }
+figcaption { color: var(--ink-3); font-size: 0.85rem; margin-top: 0.5rem; }
+svg.diagram { width: 100%; height: auto; display: block; }
+@media (max-width: 640px) { body { font-size: 15px; } .lead { font-size: 1.05rem; } }

@@ -1,0 +1,2666 @@
+[
+{
+"file": "ankle_left.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/ankle_left.stl",
+"community": {
+"bytes": 248984,
+"format": "binary",
+"tris": 4978,
+"bbox_mm": [
+39.49,
+36.5,
+25.5
+],
+"volume_cm3": 7.878,
+"area_cm2": 53.61,
+"sha256": "98f14ba6e6cd1387"
+},
+"inSim": true,
+"upstream": {
+"bytes": 248984,
+"format": "binary",
+"tris": 4978,
+"bbox_mm": [
+39.49,
+36.5,
+25.5
+],
+"volume_cm3": 7.878,
+"area_cm2": 53.61,
+"sha256": "98f14ba6e6cd1387",
+"path": "src/mjlab_microduck/robot/microduck/assets/ankle_left.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 58284,
+"format": "binary",
+"tris": 1164,
+"bbox_mm": [
+39.49,
+36.5,
+25.5
+],
+"volume_cm3": 7.928,
+"area_cm2": 53.14,
+"sha256": "df5d7f04d63390a1"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 0.64,
+"vertex_overlap": 0.23,
+"decimation": 4.28
+}
+},
+{
+"file": "ankle_right.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/ankle_right.stl",
+"community": {
+"bytes": 248884,
+"format": "binary",
+"tris": 4976,
+"bbox_mm": [
+39.49,
+36.5,
+25.5
+],
+"volume_cm3": 7.878,
+"area_cm2": 53.61,
+"sha256": "836032fdeaa4b1f4"
+},
+"inSim": true,
+"upstream": {
+"bytes": 248884,
+"format": "binary",
+"tris": 4976,
+"bbox_mm": [
+39.49,
+36.5,
+25.5
+],
+"volume_cm3": 7.878,
+"area_cm2": 53.61,
+"sha256": "836032fdeaa4b1f4",
+"path": "src/mjlab_microduck/robot/microduck/assets/ankle_right.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 51584,
+"format": "binary",
+"tris": 1030,
+"bbox_mm": [
+39.49,
+36.5,
+25.5
+],
+"volume_cm3": 8.0,
+"area_cm2": 52.51,
+"sha256": "48b8551a13d22cc8"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 1.55,
+"vertex_overlap": 0.203,
+"decimation": 4.83
+}
+},
+{
+"file": "banana_pcb_locker.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/banana_pcb_locker.stl",
+"community": {
+"bytes": 69484,
+"format": "binary",
+"tris": 1388,
+"bbox_mm": [
+54.05,
+3.8,
+6.65
+],
+"volume_cm3": 0.46,
+"area_cm2": 8.22,
+"sha256": "a176364f824248b5"
+},
+"inSim": true,
+"upstream": {
+"bytes": 69484,
+"format": "binary",
+"tris": 1388,
+"bbox_mm": [
+54.05,
+3.8,
+6.65
+],
+"volume_cm3": 0.46,
+"area_cm2": 8.22,
+"sha256": "a176364f824248b5",
+"path": "src/mjlab_microduck/robot/microduck/assets/banana_pcb_locker.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 11634,
+"format": "binary",
+"tris": 231,
+"bbox_mm": [
+53.52,
+3.8,
+6.64
+],
+"volume_cm3": 0.429,
+"area_cm2": 7.86,
+"sha256": "2e51f6e23e4dbea6"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.99,
+"d_volume_pct": -6.67,
+"vertex_overlap": 0.202,
+"decimation": 6.01
+}
+},
+{
+"file": "bearing_roll.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/bearing_roll.stl",
+"community": {
+"bytes": 121084,
+"format": "binary",
+"tris": 2420,
+"bbox_mm": [
+23.0,
+3.0,
+40.0
+],
+"volume_cm3": 0.625,
+"area_cm2": 14.62,
+"sha256": "2b30cbdb110c5cca"
+},
+"inSim": true,
+"upstream": {
+"bytes": 121084,
+"format": "binary",
+"tris": 2420,
+"bbox_mm": [
+23.0,
+3.0,
+40.0
+],
+"volume_cm3": 0.625,
+"area_cm2": 14.62,
+"sha256": "2b30cbdb110c5cca",
+"path": "src/mjlab_microduck/robot/microduck/assets/bearing_roll.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 30284,
+"format": "binary",
+"tris": 604,
+"bbox_mm": [
+23.0,
+3.0,
+40.0
+],
+"volume_cm3": 0.626,
+"area_cm2": 14.63,
+"sha256": "fa0da0a5eef428a4"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 0.07,
+"vertex_overlap": 0.245,
+"decimation": 4.01
+}
+},
+{
+"file": "bottom_head_shell.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/bottom_head_shell.stl",
+"community": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+91.76,
+116.75,
+20.14
+],
+"volume_cm3": 23.796,
+"area_cm2": 291.34,
+"sha256": "3ce9532854a712c9"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+91.76,
+116.75,
+20.14
+],
+"volume_cm3": 23.796,
+"area_cm2": 291.34,
+"sha256": "3ce9532854a712c9",
+"path": "src/mjlab_microduck/robot/microduck/assets/bottom_head_shell.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 231334,
+"format": "binary",
+"tris": 4625,
+"bbox_mm": [
+91.74,
+116.74,
+20.13
+],
+"volume_cm3": 22.994,
+"area_cm2": 282.07,
+"sha256": "331a361406e77c05"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.02,
+"d_volume_pct": -3.37,
+"vertex_overlap": 0.223,
+"decimation": 4.53
+}
+},
+{
+"file": "face_part.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/face_part.stl",
+"community": {
+"bytes": 570684,
+"format": "binary",
+"tris": 11412,
+"bbox_mm": [
+87.65,
+12.5,
+44.63
+],
+"volume_cm3": 5.824,
+"area_cm2": 84.0,
+"sha256": "30eaa56fc38129ba"
+},
+"inSim": true,
+"upstream": {
+"bytes": 570684,
+"format": "binary",
+"tris": 11412,
+"bbox_mm": [
+87.65,
+12.5,
+44.63
+],
+"volume_cm3": 5.824,
+"area_cm2": 84.0,
+"sha256": "30eaa56fc38129ba",
+"path": "src/mjlab_microduck/robot/microduck/assets/face_part.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 136784,
+"format": "binary",
+"tris": 2734,
+"bbox_mm": [
+87.65,
+12.5,
+44.59
+],
+"volume_cm3": 6.124,
+"area_cm2": 82.89,
+"sha256": "47ad1137a68bf72b"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.09,
+"d_volume_pct": 5.14,
+"vertex_overlap": 0.239,
+"decimation": 4.17
+}
+},
+{
+"file": "foot_left.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/foot_left.stl",
+"community": {
+"bytes": 996184,
+"format": "binary",
+"tris": 19922,
+"bbox_mm": [
+40.09,
+54.0,
+16.91
+],
+"volume_cm3": 12.178,
+"area_cm2": 131.24,
+"sha256": "5de2622a7b894e0f"
+},
+"inSim": true,
+"upstream": {
+"bytes": 996184,
+"format": "binary",
+"tris": 19922,
+"bbox_mm": [
+40.09,
+54.0,
+16.91
+],
+"volume_cm3": 12.178,
+"area_cm2": 131.24,
+"sha256": "5de2622a7b894e0f",
+"path": "src/mjlab_microduck/robot/microduck/assets/foot_left.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 241934,
+"format": "binary",
+"tris": 4837,
+"bbox_mm": [
+40.09,
+53.99,
+16.9
+],
+"volume_cm3": 12.167,
+"area_cm2": 130.74,
+"sha256": "b7749b1f4fd9e7fa"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.03,
+"d_volume_pct": -0.09,
+"vertex_overlap": 0.242,
+"decimation": 4.12
+}
+},
+{
+"file": "foot_right.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/foot_right.stl",
+"community": {
+"bytes": 995784,
+"format": "binary",
+"tris": 19914,
+"bbox_mm": [
+40.09,
+54.0,
+16.91
+],
+"volume_cm3": 12.178,
+"area_cm2": 131.24,
+"sha256": "8ffa894b29578edc"
+},
+"inSim": true,
+"upstream": {
+"bytes": 995784,
+"format": "binary",
+"tris": 19914,
+"bbox_mm": [
+40.09,
+54.0,
+16.91
+],
+"volume_cm3": 12.178,
+"area_cm2": 131.24,
+"sha256": "8ffa894b29578edc",
+"path": "src/mjlab_microduck/robot/microduck/assets/foot_right.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 246084,
+"format": "binary",
+"tris": 4920,
+"bbox_mm": [
+40.09,
+53.99,
+16.91
+],
+"volume_cm3": 12.173,
+"area_cm2": 131.2,
+"sha256": "e2aba02ec1b949bc"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.03,
+"d_volume_pct": -0.04,
+"vertex_overlap": 0.245,
+"decimation": 4.05
+}
+},
+{
+"file": "hip_l.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/hip_l.stl",
+"community": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+32.45,
+34.5,
+19.0
+],
+"volume_cm3": 4.525,
+"area_cm2": 33.59,
+"sha256": "02bc777ce76a31b3"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+32.45,
+34.5,
+19.0
+],
+"volume_cm3": 4.525,
+"area_cm2": 33.59,
+"sha256": "02bc777ce76a31b3",
+"path": "src/mjlab_microduck/robot/microduck/assets/hip_l.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 229134,
+"format": "binary",
+"tris": 4581,
+"bbox_mm": [
+32.45,
+34.5,
+19.0
+],
+"volume_cm3": 4.346,
+"area_cm2": 31.37,
+"sha256": "dbdf6e7f5587385c"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.01,
+"d_volume_pct": -3.95,
+"vertex_overlap": 0.222,
+"decimation": 4.58
+}
+},
+{
+"file": "jaw.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/jaw.stl",
+"community": {
+"bytes": 495984,
+"format": "binary",
+"tris": 9918,
+"bbox_mm": [
+91.42,
+68.71,
+29.45
+],
+"volume_cm3": 9.36,
+"area_cm2": 110.74,
+"sha256": "65c300349113d3c6"
+},
+"inSim": true,
+"upstream": {
+"bytes": 495984,
+"format": "binary",
+"tris": 9918,
+"bbox_mm": [
+91.42,
+68.71,
+29.45
+],
+"volume_cm3": 9.36,
+"area_cm2": 110.74,
+"sha256": "65c300349113d3c6",
+"path": "src/mjlab_microduck/robot/microduck/assets/jaw.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 120834,
+"format": "binary",
+"tris": 2415,
+"bbox_mm": [
+91.42,
+68.7,
+29.42
+],
+"volume_cm3": 9.572,
+"area_cm2": 109.41,
+"sha256": "90afa64e47ef237f"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.09,
+"d_volume_pct": 2.27,
+"vertex_overlap": 0.25,
+"decimation": 4.11
+}
+},
+{
+"file": "jaw_soft.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/jaw_soft.stl",
+"community": {
+"bytes": 336384,
+"format": "binary",
+"tris": 6726,
+"bbox_mm": [
+87.67,
+32.23,
+8.44
+],
+"volume_cm3": 18.601,
+"area_cm2": 64.49,
+"sha256": "61a426890f748713"
+},
+"inSim": true,
+"upstream": {
+"bytes": 336384,
+"format": "binary",
+"tris": 6726,
+"bbox_mm": [
+87.67,
+32.23,
+8.44
+],
+"volume_cm3": 18.601,
+"area_cm2": 64.49,
+"sha256": "61a426890f748713",
+"path": "src/mjlab_microduck/robot/microduck/assets/jaw_soft.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 84084,
+"format": "binary",
+"tris": 1680,
+"bbox_mm": [
+87.67,
+32.23,
+8.44
+],
+"volume_cm3": 18.598,
+"area_cm2": 64.49,
+"sha256": "6c3ebb578ea5e6d7"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.01,
+"d_volume_pct": -0.02,
+"vertex_overlap": 0.25,
+"decimation": 4.0
+}
+},
+{
+"file": "left_shell.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/left_shell.stl",
+"community": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+33.71,
+80.89,
+41.69
+],
+"volume_cm3": 11.388,
+"area_cm2": 115.42,
+"sha256": "efc16f55a4c32d21"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+33.71,
+80.89,
+41.69
+],
+"volume_cm3": 11.388,
+"area_cm2": 115.42,
+"sha256": "efc16f55a4c32d21",
+"path": "src/mjlab_microduck/robot/microduck/assets/left_shell.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 256334,
+"format": "binary",
+"tris": 5125,
+"bbox_mm": [
+33.71,
+80.89,
+41.69
+],
+"volume_cm3": 11.416,
+"area_cm2": 114.7,
+"sha256": "c31e71e2e55c5dac"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.02,
+"d_volume_pct": 0.24,
+"vertex_overlap": 0.245,
+"decimation": 4.09
+}
+},
+{
+"file": "leg.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/leg.stl",
+"community": {
+"bytes": 738884,
+"format": "binary",
+"tris": 14776,
+"bbox_mm": [
+7.95,
+20.0,
+58.0
+],
+"volume_cm3": 3.406,
+"area_cm2": 32.34,
+"sha256": "b57d55ec2504dfb9"
+},
+"inSim": true,
+"upstream": {
+"bytes": 738884,
+"format": "binary",
+"tris": 14776,
+"bbox_mm": [
+7.95,
+20.0,
+58.0
+],
+"volume_cm3": 3.406,
+"area_cm2": 32.34,
+"sha256": "b57d55ec2504dfb9",
+"path": "src/mjlab_microduck/robot/microduck/assets/leg.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 166434,
+"format": "binary",
+"tris": 3327,
+"bbox_mm": [
+7.95,
+20.0,
+58.0
+],
+"volume_cm3": 3.168,
+"area_cm2": 30.76,
+"sha256": "bfbc6ae5faefc56b"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.0,
+"d_volume_pct": -6.97,
+"vertex_overlap": 0.232,
+"decimation": 4.44
+}
+},
+{
+"file": "m12_lens_holder.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/m12_lens_holder.stl",
+"community": {
+"bytes": 549684,
+"format": "binary",
+"tris": 10992,
+"bbox_mm": [
+24.0,
+14.8,
+16.0
+],
+"volume_cm3": 1.098,
+"area_cm2": 19.16,
+"sha256": "7a9989bbe776ddd7"
+},
+"inSim": true,
+"upstream": {
+"bytes": 549684,
+"format": "binary",
+"tris": 10992,
+"bbox_mm": [
+24.0,
+14.8,
+16.0
+],
+"volume_cm3": 1.098,
+"area_cm2": 19.16,
+"sha256": "7a9989bbe776ddd7",
+"path": "src/mjlab_microduck/robot/microduck/assets/m12_lens_holder.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 98334,
+"format": "binary",
+"tris": 1965,
+"bbox_mm": [
+23.08,
+14.8,
+16.0
+],
+"volume_cm3": 0.992,
+"area_cm2": 18.07,
+"sha256": "d96825a096d5d3d5"
+},
+"vsSim": {
+"verdict": "different",
+"d_bbox_pct": 3.84,
+"d_volume_pct": -9.6,
+"vertex_overlap": 0.189,
+"decimation": 5.59
+}
+},
+{
+"file": "motor_support.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/motor_support.stl",
+"community": {
+"bytes": 180884,
+"format": "binary",
+"tris": 3616,
+"bbox_mm": [
+73.5,
+54.2,
+18.8
+],
+"volume_cm3": 7.515,
+"area_cm2": 96.55,
+"sha256": "5a741ee0dc71b349"
+},
+"inSim": true,
+"upstream": {
+"bytes": 180884,
+"format": "binary",
+"tris": 3616,
+"bbox_mm": [
+73.5,
+54.2,
+18.8
+],
+"volume_cm3": 7.515,
+"area_cm2": 96.55,
+"sha256": "5a741ee0dc71b349",
+"path": "src/mjlab_microduck/robot/microduck/assets/motor_support.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 45284,
+"format": "binary",
+"tris": 904,
+"bbox_mm": [
+73.5,
+54.2,
+18.8
+],
+"volume_cm3": 7.505,
+"area_cm2": 96.57,
+"sha256": "d6725004f0a85a5c"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.0,
+"d_volume_pct": -0.14,
+"vertex_overlap": 0.246,
+"decimation": 4.0
+}
+},
+{
+"file": "neck.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/neck.stl",
+"community": {
+"bytes": 73484,
+"format": "binary",
+"tris": 1468,
+"bbox_mm": [
+2.0,
+20.0,
+11.0
+],
+"volume_cm3": 0.4,
+"area_cm2": 5.75,
+"sha256": "ee5d4cbc51f64c43"
+},
+"inSim": true,
+"upstream": {
+"bytes": 73484,
+"format": "binary",
+"tris": 1468,
+"bbox_mm": [
+2.0,
+20.0,
+11.0
+],
+"volume_cm3": 0.4,
+"area_cm2": 5.75,
+"sha256": "ee5d4cbc51f64c43",
+"path": "src/mjlab_microduck/robot/microduck/assets/neck.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 18384,
+"format": "binary",
+"tris": 366,
+"bbox_mm": [
+2.0,
+19.98,
+10.98
+],
+"volume_cm3": 0.432,
+"area_cm2": 5.49,
+"sha256": "3cb654ee9387d55c"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.14,
+"d_volume_pct": 8.0,
+"vertex_overlap": 0.243,
+"decimation": 4.01
+}
+},
+{
+"file": "neck_pitch.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/neck_pitch.stl",
+"community": {
+"bytes": 356084,
+"format": "binary",
+"tris": 7120,
+"bbox_mm": [
+35.0,
+18.0,
+27.69
+],
+"volume_cm3": 4.107,
+"area_cm2": 37.76,
+"sha256": "b9aed695e03da381"
+},
+"inSim": true,
+"upstream": {
+"bytes": 356084,
+"format": "binary",
+"tris": 7120,
+"bbox_mm": [
+35.0,
+18.0,
+27.69
+],
+"volume_cm3": 4.107,
+"area_cm2": 37.76,
+"sha256": "b9aed695e03da381",
+"path": "src/mjlab_microduck/robot/microduck/assets/neck_pitch.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 85284,
+"format": "binary",
+"tris": 1704,
+"bbox_mm": [
+35.0,
+18.0,
+27.69
+],
+"volume_cm3": 4.239,
+"area_cm2": 36.02,
+"sha256": "dbd6fcbf8b8f27a8"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 3.23,
+"vertex_overlap": 0.242,
+"decimation": 4.18
+}
+},
+{
+"file": "noenoeil.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/noenoeil.stl",
+"community": {
+"bytes": 49284,
+"format": "binary",
+"tris": 984,
+"bbox_mm": [
+30.0,
+9.5,
+30.0
+],
+"volume_cm3": 4.25,
+"area_cm2": 21.64,
+"sha256": "f5492d8291da053b"
+},
+"inSim": true,
+"upstream": {
+"bytes": 49284,
+"format": "binary",
+"tris": 984,
+"bbox_mm": [
+30.0,
+9.5,
+30.0
+],
+"volume_cm3": 4.25,
+"area_cm2": 21.64,
+"sha256": "f5492d8291da053b",
+"path": "src/mjlab_microduck/robot/microduck/assets/noenoeil.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 12384,
+"format": "binary",
+"tris": 246,
+"bbox_mm": [
+29.89,
+9.5,
+29.94
+],
+"volume_cm3": 4.208,
+"area_cm2": 21.47,
+"sha256": "55f3167627f6fbd1"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.38,
+"d_volume_pct": -0.99,
+"vertex_overlap": 0.25,
+"decimation": 4.0
+}
+},
+{
+"file": "power_support.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/power_support.stl",
+"community": {
+"bytes": 641684,
+"format": "binary",
+"tris": 12832,
+"bbox_mm": [
+54.5,
+17.0,
+83.49
+],
+"volume_cm3": 10.494,
+"area_cm2": 126.49,
+"sha256": "cb43ba9351f51559"
+},
+"inSim": true,
+"upstream": {
+"bytes": 641684,
+"format": "binary",
+"tris": 12832,
+"bbox_mm": [
+54.5,
+17.0,
+83.49
+],
+"volume_cm3": 10.494,
+"area_cm2": 126.49,
+"sha256": "cb43ba9351f51559",
+"path": "src/mjlab_microduck/robot/microduck/assets/power_support.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 128234,
+"format": "binary",
+"tris": 2563,
+"bbox_mm": [
+54.49,
+17.0,
+83.49
+],
+"volume_cm3": 9.562,
+"area_cm2": 122.84,
+"sha256": "4aee9ddf8c12478d"
+},
+"vsSim": {
+"verdict": "different",
+"d_bbox_pct": 0.01,
+"d_volume_pct": -8.88,
+"vertex_overlap": 0.219,
+"decimation": 5.01
+}
+},
+{
+"file": "right_shell.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/right_shell.stl",
+"community": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+31.76,
+80.9,
+41.69
+],
+"volume_cm3": 11.217,
+"area_cm2": 113.35,
+"sha256": "484779f2bbe856f2"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+31.76,
+80.9,
+41.69
+],
+"volume_cm3": 11.217,
+"area_cm2": 113.35,
+"sha256": "484779f2bbe856f2",
+"path": "src/mjlab_microduck/robot/microduck/assets/right_shell.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 256384,
+"format": "binary",
+"tris": 5126,
+"bbox_mm": [
+31.76,
+80.9,
+41.69
+],
+"volume_cm3": 11.858,
+"area_cm2": 111.95,
+"sha256": "c346581c2e3c2c18"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.02,
+"d_volume_pct": 5.72,
+"vertex_overlap": 0.244,
+"decimation": 4.09
+}
+},
+{
+"file": "soft_mouth_top.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/soft_mouth_top.stl",
+"community": {
+"bytes": 393584,
+"format": "binary",
+"tris": 7870,
+"bbox_mm": [
+87.82,
+32.57,
+3.28
+],
+"volume_cm3": 2.7,
+"area_cm2": 62.26,
+"sha256": "16f662c82bd3e24f"
+},
+"inSim": true,
+"upstream": {
+"bytes": 393584,
+"format": "binary",
+"tris": 7870,
+"bbox_mm": [
+87.82,
+32.57,
+3.28
+],
+"volume_cm3": 2.7,
+"area_cm2": 62.26,
+"sha256": "16f662c82bd3e24f",
+"path": "src/mjlab_microduck/robot/microduck/assets/soft_mouth_top.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 98384,
+"format": "binary",
+"tris": 1966,
+"bbox_mm": [
+87.82,
+32.56,
+3.27
+],
+"volume_cm3": 2.694,
+"area_cm2": 62.24,
+"sha256": "451f53d30350552c"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.07,
+"d_volume_pct": -0.22,
+"vertex_overlap": 0.25,
+"decimation": 4.0
+}
+},
+{
+"file": "sole_left.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/sole_left.stl",
+"community": {
+"bytes": 789484,
+"format": "binary",
+"tris": 15788,
+"bbox_mm": [
+41.1,
+54.0,
+12.91
+],
+"volume_cm3": 6.25,
+"area_cm2": 70.17,
+"sha256": "db35f3b231c075fe"
+},
+"inSim": true,
+"upstream": {
+"bytes": 789484,
+"format": "binary",
+"tris": 15788,
+"bbox_mm": [
+41.1,
+54.0,
+12.91
+],
+"volume_cm3": 6.25,
+"area_cm2": 70.17,
+"sha256": "db35f3b231c075fe",
+"path": "src/mjlab_microduck/robot/microduck/assets/sole_left.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 197384,
+"format": "binary",
+"tris": 3946,
+"bbox_mm": [
+41.09,
+54.0,
+12.91
+],
+"volume_cm3": 6.244,
+"area_cm2": 70.14,
+"sha256": "357f80bb46855e3c"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.02,
+"d_volume_pct": -0.1,
+"vertex_overlap": 0.249,
+"decimation": 4.0
+}
+},
+{
+"file": "sole_right.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/sole_right.stl",
+"community": {
+"bytes": 794484,
+"format": "binary",
+"tris": 15888,
+"bbox_mm": [
+41.1,
+54.0,
+12.91
+],
+"volume_cm3": 6.25,
+"area_cm2": 70.16,
+"sha256": "a4f5c114aae7137d"
+},
+"inSim": true,
+"upstream": {
+"bytes": 794484,
+"format": "binary",
+"tris": 15888,
+"bbox_mm": [
+41.1,
+54.0,
+12.91
+],
+"volume_cm3": 6.25,
+"area_cm2": 70.16,
+"sha256": "a4f5c114aae7137d",
+"path": "src/mjlab_microduck/robot/microduck/assets/sole_right.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 198684,
+"format": "binary",
+"tris": 3972,
+"bbox_mm": [
+41.09,
+54.0,
+12.9
+],
+"volume_cm3": 6.246,
+"area_cm2": 70.14,
+"sha256": "07801107a36dbc1c"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.08,
+"d_volume_pct": -0.06,
+"vertex_overlap": 0.249,
+"decimation": 4.0
+}
+},
+{
+"file": "top_head_shell.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/top_head_shell.stl",
+"community": {
+"bytes": 806084,
+"format": "binary",
+"tris": 16120,
+"bbox_mm": [
+91.76,
+122.69,
+46.34
+],
+"volume_cm3": 29.873,
+"area_cm2": 345.31,
+"sha256": "bc64288c0d54e13e"
+},
+"inSim": true,
+"upstream": {
+"bytes": 806084,
+"format": "binary",
+"tris": 16120,
+"bbox_mm": [
+91.76,
+122.69,
+46.34
+],
+"volume_cm3": 29.873,
+"area_cm2": 345.31,
+"sha256": "bc64288c0d54e13e",
+"path": "src/mjlab_microduck/robot/microduck/assets/top_head_shell.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 194984,
+"format": "binary",
+"tris": 3898,
+"bbox_mm": [
+91.6,
+122.69,
+46.33
+],
+"volume_cm3": 29.94,
+"area_cm2": 342.77,
+"sha256": "a59823b8f2ab23d5"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.17,
+"d_volume_pct": 0.22,
+"vertex_overlap": 0.242,
+"decimation": 4.14
+}
+},
+{
+"file": "trunk_base.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/trunk_base.stl",
+"community": {
+"bytes": 184984,
+"format": "binary",
+"tris": 3698,
+"bbox_mm": [
+57.0,
+36.0,
+3.0
+],
+"volume_cm3": 1.415,
+"area_cm2": 31.98,
+"sha256": "fabfecefb73fbdc0"
+},
+"inSim": true,
+"upstream": {
+"bytes": 184984,
+"format": "binary",
+"tris": 3698,
+"bbox_mm": [
+57.0,
+36.0,
+3.0
+],
+"volume_cm3": 1.415,
+"area_cm2": 31.98,
+"sha256": "fabfecefb73fbdc0",
+"path": "src/mjlab_microduck/robot/microduck/assets/trunk_base.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 38734,
+"format": "binary",
+"tris": 773,
+"bbox_mm": [
+57.0,
+36.0,
+1.0
+],
+"volume_cm3": 1.342,
+"area_cm2": 31.53,
+"sha256": "4b84ebe28041e623"
+},
+"vsSim": {
+"verdict": "different",
+"d_bbox_pct": 66.67,
+"d_volume_pct": -5.15,
+"vertex_overlap": 0.216,
+"decimation": 4.78
+}
+},
+{
+"file": "upper_leg_left.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/upper_leg_left.stl",
+"community": {
+"bytes": 612584,
+"format": "binary",
+"tris": 12250,
+"bbox_mm": [
+28.0,
+47.66,
+61.0
+],
+"volume_cm3": 4.15,
+"area_cm2": 85.31,
+"sha256": "b84e46d681cb9710"
+},
+"inSim": true,
+"upstream": {
+"bytes": 612584,
+"format": "binary",
+"tris": 12250,
+"bbox_mm": [
+28.0,
+47.66,
+61.0
+],
+"volume_cm3": 4.15,
+"area_cm2": 85.31,
+"sha256": "b84e46d681cb9710",
+"path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_left.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 133134,
+"format": "binary",
+"tris": 2661,
+"bbox_mm": [
+28.0,
+47.66,
+61.0
+],
+"volume_cm3": 4.352,
+"area_cm2": 82.56,
+"sha256": "a626dafcdd0074fd"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 4.86,
+"vertex_overlap": 0.223,
+"decimation": 4.6
+}
+},
+{
+"file": "upper_leg_right.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/upper_leg_right.stl",
+"community": {
+"bytes": 612584,
+"format": "binary",
+"tris": 12250,
+"bbox_mm": [
+28.0,
+47.66,
+61.0
+],
+"volume_cm3": 4.15,
+"area_cm2": 85.31,
+"sha256": "d6ed49dc77a539c6"
+},
+"inSim": true,
+"upstream": {
+"bytes": 612584,
+"format": "binary",
+"tris": 12250,
+"bbox_mm": [
+28.0,
+47.66,
+61.0
+],
+"volume_cm3": 4.15,
+"area_cm2": 85.31,
+"sha256": "d6ed49dc77a539c6",
+"path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_right.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 124434,
+"format": "binary",
+"tris": 2487,
+"bbox_mm": [
+28.0,
+47.65,
+61.0
+],
+"volume_cm3": 4.158,
+"area_cm2": 81.61,
+"sha256": "97fd516a4c0e593f"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.01,
+"d_volume_pct": 0.19,
+"vertex_overlap": 0.206,
+"decimation": 4.93
+}
+},
+{
+"file": "upper_leg_rigidity_plate.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/upper_leg_rigidity_plate.stl",
+"community": {
+"bytes": 180084,
+"format": "binary",
+"tris": 3600,
+"bbox_mm": [
+1.0,
+45.0,
+58.06
+],
+"volume_cm3": 0.748,
+"area_cm2": 19.55,
+"sha256": "41a4f826b5badfb7"
+},
+"inSim": true,
+"upstream": {
+"bytes": 180084,
+"format": "binary",
+"tris": 3600,
+"bbox_mm": [
+1.0,
+45.0,
+58.06
+],
+"volume_cm3": 0.748,
+"area_cm2": 19.55,
+"sha256": "41a4f826b5badfb7",
+"path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_rigidity_plate.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 45084,
+"format": "binary",
+"tris": 900,
+"bbox_mm": [
+1.0,
+44.98,
+58.06
+],
+"volume_cm3": 0.765,
+"area_cm2": 19.63,
+"sha256": "96e50158d44ef97f"
+},
+"vsSim": {
+"verdict": "minor differences",
+"d_bbox_pct": 0.04,
+"d_volume_pct": 2.35,
+"vertex_overlap": 0.242,
+"decimation": 4.0
+}
+},
+{
+"file": "yaw2roll.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/yaw2roll.stl",
+"community": {
+"bytes": 620284,
+"format": "binary",
+"tris": 12404,
+"bbox_mm": [
+23.0,
+25.8,
+20.5
+],
+"volume_cm3": 2.816,
+"area_cm2": 28.59,
+"sha256": "56ce1110e43c2279"
+},
+"inSim": true,
+"upstream": {
+"bytes": 620284,
+"format": "binary",
+"tris": 12404,
+"bbox_mm": [
+23.0,
+25.8,
+20.5
+],
+"volume_cm3": 2.816,
+"area_cm2": 28.59,
+"sha256": "56ce1110e43c2279",
+"path": "src/mjlab_microduck/robot/microduck/assets/yaw2roll.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 119884,
+"format": "binary",
+"tris": 2396,
+"bbox_mm": [
+23.0,
+25.8,
+20.5
+],
+"volume_cm3": 2.835,
+"area_cm2": 25.84,
+"sha256": "c20cbdd8a9d52f78"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 0.67,
+"vertex_overlap": 0.2,
+"decimation": 5.18
+}
+},
+{
+"file": "yaw_roll_motion.stl",
+"category": "printable",
+"folder": "printables",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/printables/yaw_roll_motion.stl",
+"community": {
+"bytes": 290784,
+"format": "binary",
+"tris": 5814,
+"bbox_mm": [
+34.0,
+35.9,
+22.5
+],
+"volume_cm3": 4.556,
+"area_cm2": 47.25,
+"sha256": "41149f07f2fb4f2c"
+},
+"inSim": true,
+"upstream": {
+"bytes": 290784,
+"format": "binary",
+"tris": 5814,
+"bbox_mm": [
+34.0,
+35.9,
+22.5
+],
+"volume_cm3": 4.556,
+"area_cm2": 47.25,
+"sha256": "41149f07f2fb4f2c",
+"path": "src/mjlab_microduck/robot/microduck/assets/yaw_roll_motion.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 62184,
+"format": "binary",
+"tris": 1242,
+"bbox_mm": [
+34.0,
+35.9,
+22.47
+],
+"volume_cm3": 4.564,
+"area_cm2": 45.44,
+"sha256": "ae3740fde29a261b"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.15,
+"d_volume_pct": 0.18,
+"vertex_overlap": 0.216,
+"decimation": 4.68
+}
+},
+{
+"file": "elec_rpi_robot_hat_pcb.stl",
+"category": "commercial",
+"folder": "commercial-parts",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/commercial-parts/elec_rpi_robot_hat_pcb.stl",
+"community": {
+"bytes": 942884,
+"format": "binary",
+"tris": 18856,
+"bbox_mm": [
+65.03,
+30.03,
+0.84
+],
+"volume_cm3": 1.569,
+"area_cm2": 40.75,
+"sha256": "45b904bcb378161d"
+},
+"inSim": true,
+"upstream": {
+"bytes": 942884,
+"format": "binary",
+"tris": 18856,
+"bbox_mm": [
+65.03,
+30.03,
+0.84
+],
+"volume_cm3": 1.569,
+"area_cm2": 40.75,
+"sha256": "45b904bcb378161d",
+"path": "src/mjlab_microduck/robot/microduck/assets/elec_rpi_robot_hat_pcb.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 225434,
+"format": "binary",
+"tris": 4507,
+"bbox_mm": [
+65.02,
+30.02,
+0.84
+],
+"volume_cm3": 1.589,
+"area_cm2": 40.77,
+"sha256": "acc66b75f2ff26f4"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 1.28,
+"vertex_overlap": 0.232,
+"decimation": 4.18
+}
+},
+{
+"file": "lens.stl",
+"category": "commercial",
+"folder": "commercial-parts",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/commercial-parts/lens.stl",
+"community": {
+"bytes": 93684,
+"format": "binary",
+"tris": 1872,
+"bbox_mm": [
+16.94,
+18.92,
+16.94
+],
+"volume_cm3": 2.803,
+"area_cm2": 11.84,
+"sha256": "1549b2dad784d1a4"
+},
+"inSim": true,
+"upstream": {
+"bytes": 93684,
+"format": "binary",
+"tris": 1872,
+"bbox_mm": [
+16.94,
+18.92,
+16.94
+],
+"volume_cm3": 2.803,
+"area_cm2": 11.84,
+"sha256": "1549b2dad784d1a4",
+"path": "src/mjlab_microduck/robot/microduck/assets/lens.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 23484,
+"format": "binary",
+"tris": 468,
+"bbox_mm": [
+16.91,
+18.87,
+16.94
+],
+"volume_cm3": 2.772,
+"area_cm2": 11.79,
+"sha256": "b9b86fce70198040"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.28,
+"d_volume_pct": -1.1,
+"vertex_overlap": 0.252,
+"decimation": 4.0
+}
+},
+{
+"file": "np_f970.stl",
+"category": "commercial",
+"folder": "commercial-parts",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/commercial-parts/np_f970.stl",
+"community": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+38.61,
+20.58,
+70.81
+],
+"volume_cm3": 51.556,
+"area_cm2": 101.93,
+"sha256": "979ca81251d4ec58"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+38.61,
+20.58,
+70.81
+],
+"volume_cm3": 51.556,
+"area_cm2": 101.93,
+"sha256": "979ca81251d4ec58",
+"path": "src/mjlab_microduck/robot/microduck/assets/np_f970.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 247734,
+"format": "binary",
+"tris": 4953,
+"bbox_mm": [
+38.61,
+20.57,
+70.8
+],
+"volume_cm3": 51.59,
+"area_cm2": 101.05,
+"sha256": "01fbacc788b53ebb"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.04,
+"d_volume_pct": 0.07,
+"vertex_overlap": 0.237,
+"decimation": 4.23
+}
+},
+{
+"file": "pcb__raspberry_pi_zero_2_w.stl",
+"category": "commercial",
+"folder": "commercial-parts",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/commercial-parts/pcb__raspberry_pi_zero_2_w.stl",
+"community": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+65.0,
+1.6,
+30.0
+],
+"volume_cm3": 3.018,
+"area_cm2": 43.26,
+"sha256": "0608b3cc7d15e479"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+65.0,
+1.6,
+30.0
+],
+"volume_cm3": 3.018,
+"area_cm2": 43.26,
+"sha256": "0608b3cc7d15e479",
+"path": "src/mjlab_microduck/robot/microduck/assets/pcb__raspberry_pi_zero_2_w.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 262184,
+"format": "binary",
+"tris": 5242,
+"bbox_mm": [
+65.0,
+1.6,
+30.0
+],
+"volume_cm3": 3.054,
+"area_cm2": 43.18,
+"sha256": "43d8368ced3d623e"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 1.19,
+"vertex_overlap": 0.238,
+"decimation": 4.0
+}
+},
+{
+"file": "seeed_bearing__configuration__22x16x4.stl",
+"category": "commercial",
+"folder": "commercial-parts",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/commercial-parts/seeed_bearing__configuration__22x16x4.stl",
+"community": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+22.0,
+22.0,
+4.0
+],
+"volume_cm3": 0.493,
+"area_cm2": 13.42,
+"sha256": "154412afeab1875a"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+22.0,
+22.0,
+4.0
+],
+"volume_cm3": 0.493,
+"area_cm2": 13.42,
+"sha256": "154412afeab1875a",
+"path": "src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration__22x16x4.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 260134,
+"format": "binary",
+"tris": 5201,
+"bbox_mm": [
+22.0,
+22.0,
+4.0
+],
+"volume_cm3": 0.493,
+"area_cm2": 13.35,
+"sha256": "8551dc99cbdc012b"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.0,
+"d_volume_pct": -0.08,
+"vertex_overlap": 0.247,
+"decimation": 4.03
+}
+},
+{
+"file": "seeed_bearing__configuration_default.stl",
+"category": "commercial",
+"folder": "commercial-parts",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/commercial-parts/seeed_bearing__configuration_default.stl",
+"community": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+15.0,
+15.0,
+3.0
+],
+"volume_cm3": 0.189,
+"area_cm2": 6.98,
+"sha256": "4d0d4c174a167e5f"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048584,
+"format": "binary",
+"tris": 20970,
+"bbox_mm": [
+15.0,
+15.0,
+3.0
+],
+"volume_cm3": 0.189,
+"area_cm2": 6.98,
+"sha256": "4d0d4c174a167e5f",
+"path": "src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration_default.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 260084,
+"format": "binary",
+"tris": 5200,
+"bbox_mm": [
+14.97,
+15.0,
+3.0
+],
+"volume_cm3": 0.189,
+"area_cm2": 6.89,
+"sha256": "e4338e0e6c7adeb5"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.19,
+"d_volume_pct": -0.37,
+"vertex_overlap": 0.247,
+"decimation": 4.03
+}
+},
+{
+"file": "speaker.stl",
+"category": "commercial",
+"folder": "commercial-parts",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/commercial-parts/speaker.stl",
+"community": {
+"bytes": 684,
+"format": "binary",
+"tris": 12,
+"bbox_mm": [
+35.0,
+25.0,
+7.0
+],
+"volume_cm3": 6.125,
+"area_cm2": 25.9,
+"sha256": "694064a99dbecd48"
+},
+"inSim": true,
+"upstream": {
+"bytes": 684,
+"format": "binary",
+"tris": 12,
+"bbox_mm": [
+35.0,
+25.0,
+7.0
+],
+"volume_cm3": 6.125,
+"area_cm2": 25.9,
+"sha256": "694064a99dbecd48",
+"path": "src/mjlab_microduck/robot/microduck/assets/speaker.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 684,
+"format": "binary",
+"tris": 12,
+"bbox_mm": [
+35.0,
+25.0,
+7.0
+],
+"volume_cm3": 6.125,
+"area_cm2": 25.9,
+"sha256": "0ef54df86c6093c1"
+},
+"vsSim": {
+"verdict": "identical geometry",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 0.0,
+"vertex_overlap": 1.0,
+"decimation": 1.0
+}
+},
+{
+"file": "xl330.stl",
+"category": "commercial",
+"folder": "commercial-parts",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/commercial-parts/xl330.stl",
+"community": {
+"bytes": 206384,
+"format": "binary",
+"tris": 4126,
+"bbox_mm": [
+29.0,
+20.0,
+34.0
+],
+"volume_cm3": 15.676,
+"area_cm2": 50.94,
+"sha256": "c9f6bf7dd9d8b307"
+},
+"inSim": true,
+"upstream": {
+"bytes": 206384,
+"format": "binary",
+"tris": 4126,
+"bbox_mm": [
+29.0,
+20.0,
+34.0
+],
+"volume_cm3": 15.676,
+"area_cm2": 50.94,
+"sha256": "c9f6bf7dd9d8b307",
+"path": "src/mjlab_microduck/robot/microduck/assets/xl330.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 45584,
+"format": "binary",
+"tris": 910,
+"bbox_mm": [
+29.0,
+20.0,
+34.0
+],
+"volume_cm3": 15.821,
+"area_cm2": 46.67,
+"sha256": "d3c7b71750397083"
+},
+"vsSim": {
+"verdict": "same shape, remeshed",
+"d_bbox_pct": 0.0,
+"d_volume_pct": 0.92,
+"vertex_overlap": 0.232,
+"decimation": 4.53
+}
+},
+{
+"file": "ankle_l_v1.stl",
+"category": "roller",
+"folder": "variant-roller-skating",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/variant-roller-skating/ankle_l_v1.stl",
+"community": {
+"bytes": 235984,
+"format": "binary",
+"tris": 4718,
+"bbox_mm": [
+39.49,
+46.5,
+25.4
+],
+"volume_cm3": 6.687,
+"area_cm2": 60.97,
+"sha256": "70ecf0629559e3ed"
+},
+"inSim": true,
+"upstream": {
+"bytes": 235984,
+"format": "binary",
+"tris": 4718,
+"bbox_mm": [
+39.49,
+46.5,
+25.4
+],
+"volume_cm3": 6.687,
+"area_cm2": 60.97,
+"sha256": "70ecf0629559e3ed",
+"path": "src/mjlab_microduck/robot/microduck/assets/ankle_l_v1.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 79484,
+"format": "binary",
+"tris": 1588,
+"bbox_mm": [
+36.9,
+41.38,
+25.42
+],
+"volume_cm3": 4.108,
+"area_cm2": 46.44,
+"sha256": "74f9a51e15ac8fef"
+},
+"vsSim": {
+"verdict": "different",
+"d_bbox_pct": 11.01,
+"d_volume_pct": -38.57,
+"vertex_overlap": 0.311,
+"decimation": 2.97
+}
+},
+{
+"file": "ankle_r_v1.stl",
+"category": "roller",
+"folder": "variant-roller-skating",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/variant-roller-skating/ankle_r_v1.stl",
+"community": {
+"bytes": 235784,
+"format": "binary",
+"tris": 4714,
+"bbox_mm": [
+39.49,
+46.5,
+25.4
+],
+"volume_cm3": 6.687,
+"area_cm2": 60.97,
+"sha256": "e3f277879aa6eb24"
+},
+"inSim": true,
+"upstream": {
+"bytes": 235784,
+"format": "binary",
+"tris": 4714,
+"bbox_mm": [
+39.49,
+46.5,
+25.4
+],
+"volume_cm3": 6.687,
+"area_cm2": 60.97,
+"sha256": "e3f277879aa6eb24",
+"path": "src/mjlab_microduck/robot/microduck/assets/ankle_r_v1.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 69484,
+"format": "binary",
+"tris": 1388,
+"bbox_mm": [
+36.89,
+42.43,
+25.4
+],
+"volume_cm3": 1.353,
+"area_cm2": 40.48,
+"sha256": "c200102fb6f067cb"
+},
+"vsSim": {
+"verdict": "different",
+"d_bbox_pct": 8.75,
+"d_volume_pct": -79.76,
+"vertex_overlap": 0.273,
+"decimation": 3.4
+}
+},
+{
+"file": "rim.stl",
+"category": "roller",
+"folder": "variant-roller-skating",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/variant-roller-skating/rim.stl",
+"community": {
+"bytes": 115284,
+"format": "binary",
+"tris": 2304,
+"bbox_mm": [
+7.6,
+20.2,
+20.2
+],
+"volume_cm3": 1.034,
+"area_cm2": 14.11,
+"sha256": "c2a84cd05ed8ce87"
+},
+"inSim": true,
+"upstream": {
+"bytes": 115284,
+"format": "binary",
+"tris": 2304,
+"bbox_mm": [
+7.6,
+20.2,
+20.2
+],
+"volume_cm3": 1.034,
+"area_cm2": 14.11,
+"sha256": "c2a84cd05ed8ce87",
+"path": "src/mjlab_microduck/robot/microduck/assets/rim.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 28884,
+"format": "binary",
+"tris": 576,
+"bbox_mm": [
+7.6,
+20.33,
+20.43
+],
+"volume_cm3": 0.922,
+"area_cm2": 11.84,
+"sha256": "a6d58f80ec60041e"
+},
+"vsSim": {
+"verdict": "different",
+"d_bbox_pct": 1.14,
+"d_volume_pct": -10.84,
+"vertex_overlap": 0.07,
+"decimation": 4.0
+}
+},
+{
+"file": "roller_blade.stl",
+"category": "roller",
+"folder": "variant-roller-skating",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/variant-roller-skating/roller_blade.stl",
+"community": {
+"bytes": 1048484,
+"format": "binary",
+"tris": 20968,
+"bbox_mm": [
+40.54,
+73.0,
+30.38
+],
+"volume_cm3": 11.808,
+"area_cm2": 107.64,
+"sha256": "7b13447a82624d95"
+},
+"inSim": true,
+"upstream": {
+"bytes": 1048484,
+"format": "binary",
+"tris": 20968,
+"bbox_mm": [
+40.54,
+73.0,
+30.38
+],
+"volume_cm3": 11.808,
+"area_cm2": 107.64,
+"sha256": "7b13447a82624d95",
+"path": "src/mjlab_microduck/robot/microduck/assets/roller_blade.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 262184,
+"format": "binary",
+"tris": 5242,
+"bbox_mm": [
+40.54,
+73.0,
+29.4
+],
+"volume_cm3": 12.774,
+"area_cm2": 102.77,
+"sha256": "a8b0e6dbdb593ece"
+},
+"vsSim": {
+"verdict": "different",
+"d_bbox_pct": 3.23,
+"d_volume_pct": 8.19,
+"vertex_overlap": 0.177,
+"decimation": 4.0
+}
+},
+{
+"file": "tire.stl",
+"category": "roller",
+"folder": "variant-roller-skating",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/variant-roller-skating/tire.stl",
+"community": {
+"bytes": 352884,
+"format": "binary",
+"tris": 7056,
+"bbox_mm": [
+7.6,
+30.0,
+30.0
+],
+"volume_cm3": 2.811,
+"area_cm2": 22.35,
+"sha256": "9f680806474bcfaa"
+},
+"inSim": true,
+"upstream": {
+"bytes": 352884,
+"format": "binary",
+"tris": 7056,
+"bbox_mm": [
+7.6,
+30.0,
+30.0
+],
+"volume_cm3": 2.811,
+"area_cm2": 22.35,
+"sha256": "9f680806474bcfaa",
+"path": "src/mjlab_microduck/robot/microduck/assets/tire.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": {
+"bytes": 88284,
+"format": "binary",
+"tris": 1764,
+"bbox_mm": [
+7.91,
+29.97,
+30.0
+],
+"volume_cm3": 2.71,
+"area_cm2": 21.0,
+"sha256": "14c08d73185a4b52"
+},
+"vsSim": {
+"verdict": "different",
+"d_bbox_pct": 4.11,
+"d_volume_pct": -3.58,
+"vertex_overlap": 0.029,
+"decimation": 4.0
+}
+},
+{
+"file": "trunk_shell_left.stl",
+"category": "removed",
+"folder": "upstream-removed",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/upstream-removed/trunk_shell_left.stl",
+"community": {
+"bytes": 708384,
+"format": "binary",
+"tris": 14166,
+"bbox_mm": [
+30.9,
+82.43,
+35.7
+],
+"volume_cm3": 9.745,
+"area_cm2": 102.12,
+"sha256": "508bf1436c09bb5a"
+},
+"inSim": false,
+"upstream": {
+"bytes": 708384,
+"format": "binary",
+"tris": 14166,
+"bbox_mm": [
+30.9,
+82.43,
+35.7
+],
+"volume_cm3": 9.745,
+"area_cm2": 102.12,
+"sha256": "508bf1436c09bb5a",
+"path": "src/mjlab_microduck/robot/microduck/assets/trunk_shell_left.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": null,
+"vsSim": null
+},
+{
+"file": "trunk_shell_right.stl",
+"category": "removed",
+"folder": "upstream-removed",
+"communityUrl": "https://raw.githubusercontent.com/pablo-mano/microduck-replica/master/print/upstream-removed/trunk_shell_right.stl",
+"community": {
+"bytes": 567984,
+"format": "binary",
+"tris": 11358,
+"bbox_mm": [
+33.5,
+82.43,
+34.7
+],
+"volume_cm3": 9.898,
+"area_cm2": 102.09,
+"sha256": "d5761d6995bfc175"
+},
+"inSim": false,
+"upstream": {
+"bytes": 567984,
+"format": "binary",
+"tris": 11358,
+"bbox_mm": [
+33.5,
+82.43,
+34.7
+],
+"volume_cm3": 9.898,
+"area_cm2": 102.09,
+"sha256": "d5761d6995bfc175",
+"path": "src/mjlab_microduck/robot/microduck/assets/trunk_shell_right.stl"
+},
+"vsUpstream": "byte-identical",
+"vsUpstreamDetail": {
+"d_bbox_pct": 0,
+"d_volume_pct": 0,
+"vertex_overlap": 1
+},
+"sim": null,
+"vsSim": null
+}
+]
