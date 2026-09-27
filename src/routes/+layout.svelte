@@ -12,6 +12,7 @@
 		{ href: resolve('/run-locally'), label: 'Run locally' },
 		{ href: resolve('/bom'), label: 'BOM' },
 		{ href: resolve('/printables'), label: 'Printables' },
+		{ href: resolve('/build'), label: 'Build' },
 		{ href: resolve('/sim'), label: 'Live sim', hot: true }
 	];
 	const active = (href: string) =>

@@ -19,13 +19,14 @@ Node.js 22.12 or newer.
 
 | Path | Purpose |
 |------|---------|
-| `src/routes/` | Pages: overview (`/`), `/simulate`, `/run-locally`, `/bom` (BOM with 3D part highlighter), `/printables` (community STL comparison), `/sim` |
+| `src/routes/` | Pages: overview (`/`), `/simulate`, `/run-locally`, `/bom` (BOM with 3D part highlighter), `/printables` (community STL comparison), `/build` (build plan, Moonraker printer panel, shopping list), `/sim` |
 | `src/lib/sim/engine.ts` | Boot, 50 Hz control loop, policy scheduler, fall recovery, legs ↔ rollers switch, pen prop, 2D fallback view |
 | `src/lib/sim/bam.ts` | BAM XL330 "m6" actuator model applied at every physics step |
 | `src/lib/sim/mjcf.ts` | Rewrites `robot_allcollisions.xml` for the browser (motors, floor, keyframe) |
 | `src/lib/sim/rig.ts` | three.js rig from `kinematics.json` + `microduck.glb` |
 | `src/lib/sim/viewer.ts`, `compare.ts` | BOM part highlighter and community-STL comparison viewers |
-| `src/lib/data/` | Generated: mesh instances per body, community-vs-upstream-vs-sim mesh statistics |
+| `src/lib/data/` | Generated: mesh instances per body, community-vs-upstream-vs-sim mesh statistics; hand-written build plan and shopping list |
+| `src/lib/printer/moonraker.ts` | Browser client for Klipper/Moonraker printers (status websocket, upload, start/pause/cancel) |
 | `src/lib/components/DuckSim.svelte` | Canvas, HUD, keyboard and touch controls |
 | `static/sim/` | `mujoco.js`, `mujoco.wasm`, robot MJCF (legs + rollers), meshes, GLB, 8 ONNX policies |
 | `static/ort/` | ONNX Runtime Web wasm sidecars |

@@ -3,7 +3,7 @@
 	import { asset } from '$app/paths';
 	import type { Highlight, HighlightStats, PartViewer as Viewer } from '#lib/sim/viewer.ts';
 
-	let { highlight = null, pinned = false }: { highlight: Highlight | null; pinned?: boolean } = $props();
+	let { highlight = null, pinned = false, compact = false, caption = undefined, captionBelow = false }: { highlight: Highlight | null; pinned?: boolean; compact?: boolean; caption?: string; captionBelow?: boolean } = $props();
 
 	let canvas: HTMLCanvasElement;
 	let viewer: Viewer | null = null;
@@ -44,7 +44,7 @@
 	});
 </script>
 
-<div class="viewer">
+<div class="viewer" class:compact class:below={captionBelow}>
 	<canvas bind:this={canvas}></canvas>
 	{#if status === 'loading'}
 		<div class="msg">Loading robot model…</div>
@@ -56,9 +56,11 @@
 	<div class="caption">
 		{#if highlight}
 			<div class="name">{highlight.label}{#if pinned}<span class="pin">pinned</span>{/if}</div>
-			{#if stats}
+			{#if caption}
+				<div class="small muted">{caption}</div>
+			{:else if stats}
 				<div class="small muted">
-					{stats.meshInstances} mesh instance{stats.meshInstances === 1 ? '' : 's'}{stats.sites ? ` · ${stats.sites} sensor site${stats.sites === 1 ? '' : 's'}` : ''} highlighted
+					{#if stats.solidInstances}{stats.solidInstances} built ·{' '}{/if}{stats.meshInstances} mesh instance{stats.meshInstances === 1 ? '' : 's'}{stats.sites ? ` · ${stats.sites} sensor site${stats.sites === 1 ? '' : 's'}` : ''} highlighted
 					{stats.variant === 'rollers' ? ' · roller variant' : ''}
 				</div>
 			{:else}
@@ -74,6 +76,15 @@
 <style>
 	.viewer { position: relative; aspect-ratio: 1 / 1.05; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #171b26 0%, #0b0d12 75%); }
 	canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+	.viewer.compact { aspect-ratio: 1 / 1; }
+	.viewer.compact .caption { padding: 0.4rem 0.6rem; }
+	.viewer.compact .name { font-size: 0.85rem; }
+	.viewer.compact .small { font-size: 0.72rem; }
+	/* Caption under the canvas instead of overlaid on it */
+	.viewer.below { display: grid; grid-template-rows: 1fr auto; aspect-ratio: auto; }
+	.viewer.below canvas { aspect-ratio: 1 / 1; height: auto; }
+	.viewer.below .caption { position: static; background: var(--bg-2); border-top: 1px solid var(--line); }
+	.viewer.below .msg { inset: 0 0 auto 0; aspect-ratio: 1 / 1; }
 	.msg { position: absolute; inset: 0; display: grid; place-items: center; padding: 1.5rem; text-align: center; color: var(--ink-2); font-size: 0.9rem; background: color-mix(in srgb, var(--bg) 60%, transparent); }
 	.msg.err { color: var(--red); }
 	.caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 0.6rem 0.8rem; background: linear-gradient(transparent, color-mix(in srgb, var(--bg) 92%, transparent) 40%); pointer-events: none; }

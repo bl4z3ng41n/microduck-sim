@@ -17,10 +17,23 @@ export interface Highlight {
 	instances?: string[];
 	sites?: string[];
 	variant?: ViewerVariant;
+	/** Assembly mode: meshes drawn in their normal colours (already built). Entries may be mesh names or instance keys. */
+	solid?: string[];
+	/** Drawn in blue: on hand but not assembled. Mesh names or instance keys. */
+	secondary?: string[];
+	/** Drawn dim orange: ordered / in transit. Mesh names or instance keys. */
+	tertiary?: string[];
+	/** What happens to meshes that are neither highlighted nor solid: ghosted (default) or hidden. */
+	others?: 'ghost' | 'hidden';
+	/** What the camera frames: the highlighted set (default), the solid+highlighted set, or the whole robot. */
+	frame?: 'highlight' | 'solid' | 'all';
 }
 
 export interface HighlightStats {
 	meshInstances: number;
+	solidInstances: number;
+	secondaryInstances: number;
+	tertiaryInstances: number;
 	sites: number;
 	variant: ViewerVariant;
 }
@@ -35,6 +48,8 @@ interface Variant {
 const HIGHLIGHT = new THREE.MeshStandardMaterial({ color: 0xffc93c, emissive: 0xff8a00, emissiveIntensity: 0.55, roughness: 0.35, metalness: 0.1 });
 const GHOST = new THREE.MeshStandardMaterial({ color: 0x8b93a7, transparent: true, opacity: 0.13, depthWrite: false, roughness: 0.9 });
 const MARKER = new THREE.MeshStandardMaterial({ color: 0x6fb3ff, emissive: 0x2a7fff, emissiveIntensity: 0.9 });
+const SECONDARY = new THREE.MeshStandardMaterial({ color: 0x6fb3ff, emissive: 0x1c4f9c, emissiveIntensity: 0.35, roughness: 0.45, metalness: 0.05 });
+const TERTIARY = new THREE.MeshStandardMaterial({ color: 0xff7a2f, transparent: true, opacity: 0.35, depthWrite: false, roughness: 0.6 });
 
 export class PartViewer {
 	private canvas: HTMLCanvasElement;
@@ -192,21 +207,36 @@ export class PartViewer {
 	private applyHighlight(h: Highlight | null) {
 		const v = this.variants[this.shown];
 		if (!v || !this.renderer) return;
-		const meshSet = new Set(h?.meshes ?? []);
-		const instSet = new Set(h?.instances ?? []);
+		const meshSet = new Set([...(h?.meshes ?? []), ...(h?.instances ?? [])]);
 		const siteSet = new Set(h?.sites ?? []);
-		const active = meshSet.size > 0 || instSet.size > 0 || siteSet.size > 0;
-		let count = 0;
+		const solidSet = new Set(h?.solid ?? []);
+		const secSet = new Set(h?.secondary ?? []);
+		const terSet = new Set(h?.tertiary ?? []);
+		const hidden = h?.others === 'hidden';
+		// An explicit `others` mode means assembly semantics: with nothing built, everything is ghosted/hidden.
+		const active = meshSet.size > 0 || siteSet.size > 0 || solidSet.size > 0 || secSet.size > 0 || terSet.size > 0 || h?.others !== undefined;
+		let count = 0, solidCount = 0, secCount = 0, terCount = 0;
 		this._box.makeEmpty();
+		const solidBox = new THREE.Box3();
 		v.rig.placer.updateWorldMatrix(true, true);
+		const inSet = (set: Set<string>, m: THREE.Mesh) => set.has(m.userData.meshName as string) || set.has(m.userData.instanceKey as string);
 		for (const m of v.meshes) {
-			const hit = meshSet.has(m.userData.meshName as string) || instSet.has(m.userData.instanceKey as string);
-			m.material = !active ? v.baseMaterials.get(m)! : hit ? HIGHLIGHT : GHOST;
-			m.castShadow = !active || hit;
+			const hit = inSet(meshSet, m);
+			const solid = !hit && inSet(solidSet, m);
+			const sec = !hit && !solid && inSet(secSet, m);
+			const ter = !hit && !solid && !sec && inSet(terSet, m);
+			const shown = hit || solid || sec || ter;
+			m.visible = !active || shown || !hidden;
+			m.material = !active ? v.baseMaterials.get(m)! : hit ? HIGHLIGHT : solid ? v.baseMaterials.get(m)! : sec ? SECONDARY : ter ? TERTIARY : GHOST;
+			m.castShadow = !active || hit || solid || sec;
 			if (hit) {
 				count++;
 				this._box.expandByObject(m);
-			}
+				solidBox.expandByObject(m);
+			} else if (solid || sec) {
+				if (solid) solidCount++; else secCount++;
+				solidBox.expandByObject(m);
+			} else if (ter) terCount++;
 		}
 		let sites = 0;
 		for (const [name, marker] of v.markers) {
@@ -218,12 +248,12 @@ export class PartViewer {
 				this._box.expandByPoint(this._v);
 			}
 		}
-		this.onStats?.(active ? { meshInstances: count, sites, variant: this.shown } : null);
-		if (active && !this._box.isEmpty()) this.frame(this._box, 2.4);
-		else {
-			this._box.setFromCenterAndSize(new THREE.Vector3(0, 0.125, 0), new THREE.Vector3(0.2, 0.26, 0.2));
-			this.frame(this._box, 2.0);
-		}
+		this.onStats?.(active ? { meshInstances: count, solidInstances: solidCount, secondaryInstances: secCount, tertiaryInstances: terCount, sites, variant: this.shown } : null);
+		const whole = new THREE.Box3().setFromCenterAndSize(new THREE.Vector3(0, 0.125, 0), new THREE.Vector3(0.2, 0.26, 0.2));
+		const mode = h?.frame ?? 'highlight';
+		if (mode === 'all' || !active) this.frame(whole, 2.0);
+		else if (mode === 'solid') this.frame(solidBox.isEmpty() ? whole : solidBox, 2.2);
+		else this.frame(this._box.isEmpty() ? (solidBox.isEmpty() ? whole : solidBox) : this._box, 2.4);
 		this.needsRender = true;
 	}
 
